@@ -6,11 +6,9 @@ Learn about Crypto, the surrounding environment and the latest news!
 Check the live working project [HERE](https://precious-sopapillas-4fc728.netlify.app/)
 
 
--Tech used:
+## Tech used
 
 * React.js
-
-
 * AntDesign UI
 * ChartJS
 * Axios
@@ -18,7 +16,7 @@ Check the live working project [HERE](https://precious-sopapillas-4fc728.netlify
 
 
 
--Apis used(with RapidAPI):
+## Apis used(with RapidAPI):
 
 * CoinRanking
 * BingSearchApi
