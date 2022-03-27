@@ -1,38 +1,125 @@
-.App {
+.site-layout-sub-header-background {
+    background: #fff;
+  }
+  
+  .site-layout-background {
+    background: #fff;
+  }
+  h2.ant-typography{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+   
+  }
+  .Cryptogrid{
+    min-height: 90vh !important;
+}
+.flex{
+  display: flex;
+  
+}
+.apart{
+  justify-content: space-between;
+  align-items: center;
+}
+.inputer{
+  height: 37px;
+  width: 350px;
+}
+.spacerBot{
+  margin-bottom: 50px;
+}
+.spacerTop{
+  margin-top: 30px;
+}
+.textcenter{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.loader{
+  border:5px solid rgb(85, 159, 209);
+  border-top: 5px solid rgb(156, 215, 250);
+  border-radius:50%;
+  width:150px;
+  height:150px;
+  animation:spin 0.8s linear infinite;
+  margin:25vh auto;
+  transition: none;
+}
+span.ant-typography{
+ font-size: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.anticon-caret-down{
+  color: #ed1527;
+
+}
+.anticon-caret-up{
+  color: #34eb55;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
+@keyframes spin{
+0%{
     transform: rotate(0deg);
+}
+100%{
+    transform:rotate(360deg)
+}
+}
+
+.newsCard{
+  height: auto;
+  width: 100%;
+  background-color:white;
+  border: 1px solid #f0f0f0;
+  transition: 0.3s;
+  padding: 25px;
+}
+.newsCard:hover{
+  box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.31);
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.31);
+  -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.31);
+}
+.spacerBoth{
+  position: absolute;
+  bottom: 20px;
+  left: 43px;
+  right: 43px;
+}
+.weirdString h3{
+ font-weight: 700;
+}
+.newsCard{
+  min-height: 315px;
+}
+.relative{
+  position: relative;
+}
+
+@media (min-width: 900px) {
+  .ant-layout-sider{
+    flex: 0 0 320px !important;
+    max-width: 320px !important;
+    min-width: 320px !important;
+    width: 320px !important;
+}
+
+}
+@media (max-width: 1200px) {
+  .newsCard{
+    min-height: 350px;
   }
-  to {
-    transform: rotate(360deg);
+}
+@media (max-width: 900px) {
+  .apart{
+  flex-direction: column;
+  text-align: center;
+    align-items: center;
   }
+  .forever{
+    flex-direction: row;
+  }
+  .inputer{
+    width: 70%;
+  }
+
 }
