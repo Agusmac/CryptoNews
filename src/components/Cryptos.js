@@ -36,7 +36,7 @@ const Cryptos = ({basic}) => {
       {!basic &&
       <div className='flex apart spacerTop spacerBot'>
         <Title level={1} className="title">Cryptos</Title>
-        <Input className="inputer" size="small" placeholder="Search..." onChange={((e) => setSearch(e.target.value))} />
+        <Input className="inputer" size="small" placeholder="Search..." onChange={((e) => setSearch(e.target.value.toLowerCase()))} />
       </div>}
 
       {loading ? <div className='loader'></div> : (<Row gutter={[32, 32]} className={basic?"":"Cryptogrid"}>
