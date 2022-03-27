@@ -16,10 +16,14 @@ Check the live working project [HERE](https://precious-sopapillas-4fc728.netlify
 * Axios
 * React-router-dom routing, handles errors page too
 
+
+
 -Apis used(with RapidAPI):
 
 * CoinRanking
 * BingSearchApi
+
+
 
 
 
