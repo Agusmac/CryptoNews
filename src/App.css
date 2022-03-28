@@ -94,6 +94,10 @@ span.ant-typography{
 .relative{
   position: relative;
 }
+.chartDiv{
+  width: 95%;
+  margin: auto;
+}
 
 @media (min-width: 900px) {
   .ant-layout-sider{
@@ -120,6 +124,10 @@ span.ant-typography{
   }
   .inputer{
     width: 70%;
+  }
+  .chartDiv{
+    width: 100%;
+  
   }
 
 }

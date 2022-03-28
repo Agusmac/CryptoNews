@@ -34,7 +34,7 @@ const Chart = ({ history }) => {
     };
 
     return (
-        <div style={{ width: "95%", margin: "auto" }}>
+        <div className="chartDiv">
             <Line data={data} options={options} />
         </div>
 

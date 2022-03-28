@@ -18,7 +18,7 @@ const SingleCrypto = () => {
   const { id } = useParams();
   const [data, setData] = useState([])
   const [history, setHistory] = useState([])
-  const [time, setTime] = useState("30d")
+  const [time, setTime] = useState("3m")
   const [loading, setLoading] = useState(false)
 
   const timelapses = ["3h", "24h", "7d", "30d", "3m", "1y", "3y", "5y"]
