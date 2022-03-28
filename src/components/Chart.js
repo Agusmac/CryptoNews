@@ -10,7 +10,7 @@ const Chart = ({ history }) => {
     useEffect(() => {
         let tempPrice = []
         let tempLabel = []
-        for (let i = 0; i < history?.history?.length; i++) {
+        for (let i = 0; i < history?.history?.length; i+=10) {
             tempPrice.push(history.history[i].price)
             tempLabel.push(new Date(Number(new Date(history.history[i].timestamp) * 1000)).toLocaleDateString())
         }
